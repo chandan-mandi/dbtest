@@ -1,0 +1,15 @@
+.carousel-caption {
+    top: 20%;
+    left: 10% !important;
+    text-align: start !important;
+}
+.carousel-caption h5 {
+    font-size: 68px;
+    font-weight: 700;
+    font-family: 'IBM Plex Serif', serif;
+}
+.carousel-caption .btn {
+    font-weight: 700;
+    border-radius: 60px;
+    padding: 7px 20px;
+}

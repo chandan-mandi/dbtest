@@ -1,0 +1,35 @@
+.delivery-section h2 {
+    font-family: 'Rakkas', cursive;
+    font-size: 5rem;
+    line-height: 1.1;
+    color: #e84242;
+    padding-bottom: 15px;
+}
+.delivery-section {
+    background-color:  #f5e7c1;
+}
+.del-icon {
+    background-color: #fff;
+    color: #e84242;
+    font-size: 3em;
+    padding: 2px 20px 0px 20px;
+    border-radius: 50%;
+    width: 1.8em;
+    height: 1.8em;
+}
+.del-icon-text {
+    padding: 10px 20px;
+}
+.del-inline::before {
+    content: ".....";
+    font-size: 2.5em;
+    line-height: .25;
+    word-break: break-word;
+    height: 1.8em;
+    width: 1rem;
+    text-align: center;
+    margin-left: 1em;
+    margin-top: -1rem;
+    display: block;
+    color: #e84242;
+}

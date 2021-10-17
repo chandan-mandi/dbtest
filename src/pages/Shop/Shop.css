@@ -1,0 +1,50 @@
+.course-card {
+    border: none!important;
+}
+.course-card div span {
+    color: green;  
+    font-size: 16px;
+}
+.course-card h3, .course-card h3 span {
+    color: red;
+    font-size: 22px;
+}
+.course-card h4 {
+    height: 40px;
+}
+.course-card button span {
+    color: black;
+}
+.course-card p {
+    margin-bottom: 4px;
+}
+.price-section {
+    justify-content: space-between;
+}
+.course-card img {
+    height: 100%;
+    width: 100%;
+}
+.course-card h5 {
+    font-size: 16px;
+}
+.course-card h4 {
+    font-size: 16px;
+}
+.course-card .card-title {
+    font-weight: bold;
+    height: 40px;
+}
+
+.course-card img:hover{
+    transform: scale3d(1.3, 1.3, 1) translate3d(0, 0, 0) perspective(500px);
+    transition: .5s;
+    cursor: pointer;
+    border-radius: 5px;
+    opacity: 1;
+    z-index: 4;
+}
+.meal-card-img {
+    padding: 27px;
+    height: 290px;
+}
